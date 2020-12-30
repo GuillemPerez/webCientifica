@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(white 0%, #d4cfca 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#clock {
+    background-color: rgba(0, 0, 0, 0.432);
+     width: 20%;
+     font-family: 'Orbitron', sans-serif;
+     color: #66ff99;
+     position: fixed;
+     font-size: 20px;
+     text-align: center;
+     padding-top: 1%;
+     padding-bottom:1%;
+   }
+nav{
+    background:black ;
+    height: 60px;
+    width: 100%;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li {
+    
+    color:white;
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a {
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 4px;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: gray;
+  }
+ nav ul li a:active {
+    background-color: white;
+  }
+
+.informacio{
+    margin-left:2%;
+    width: 70%;
+    display: inline-block ;
+
+}
+
+.aside{
+    border-radius: 25px;
+    position: fixed;
+    top : 11%;
+    
+    border-style: solid;
+    border-color: gray;
+    width: 24%;
+    right:0;
+    
+}
+.aside img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+ul{
+    margin:auto;
+    width: 70%;
+    text-align: center;
+}
+.aside ul li{
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top:5px;
+    background-color: gray;
+}
+.aside ul li a{
+    color:black;
+}
+h2{
+    padding: 2%;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 50%;
+    margin:auto;
+    margin-top: 1%;
+    background-color: rgba(119, 119, 119, 0.514);
+    color: white;
+    text-shadow: 0px 0px 6px black;
+}
+h1{
+    margin:10px;
+}
+p{
+   
+    margin: 3%;
+}
+footer{
+    display: inline-block;
+     width: 100%;
+     margin-top:2%;
+     background-color: black;
+     height: auto;
+    
+ }
+ footer aside{
+     position: relative;
+     margin-top:1%;
+     float: right;
+     text-align: center;
+     width: 25%;
+ }
+ footer aside h1{
+     margin: auto;
+     width:50%;
+     border-radius: 20%;
+     background-color: gray;
+ }
+ footer p{
+     float: center;
+     width:30%;
+     text-align: center;
+     padding-top:70px;
+     color: gray;
+ }
+ footer h1 ,ul li a{
+     margin-top:2px;
+     color: white;
+ }
+ 
